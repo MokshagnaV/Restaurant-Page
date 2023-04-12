@@ -85,7 +85,7 @@ body{
     overflow-x: hidden;
 }
 .main-hero{
-    background: url("../images/hero.jpg"), rgba(0, 0, 0, 0.404);
+    background: url("images/hero.jpg"), rgba(0, 0, 0, 0.404);
     background-blend-mode: multiply;
     height: 500px;
     background-size: cover;
@@ -97,11 +97,11 @@ body{
     padding-top: 0;
 }
 .main-hero.menuHero{
-    background: url(../images/menu.jpg), rgba(0, 0, 0, 0.404);
+    background: url(images/menu.jpg), rgba(0, 0, 0, 0.404);
     background-size: cover;
 }
 .main-hero.contact{
-    background: url(../images/contact.jpg), rgba(0, 0, 0, 0.404);
+    background: url(images/contact.jpg), rgba(0, 0, 0, 0.404);
     background-size: cover;
     background-position: 90%;
 }
@@ -126,7 +126,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 600px;
-    background: url(../images/intro.jpg), rgba(0, 0, 0, 0.404);
+    background: url(images/intro.jpg), rgba(0, 0, 0, 0.404);
     background-blend-mode: multiply;
     background-size: cover;
     background-position-y: center;
@@ -168,7 +168,7 @@ body{
 }
 
 .values{
-    background: url(../images/values.jpg),  rgba(0, 0, 0, 0.404);
+    background: url(images/values.jpg),  rgba(0, 0, 0, 0.404);
     background-blend-mode: multiply;
     min-height: 600px;
     background-size: cover;
@@ -200,7 +200,7 @@ body{
     padding: 2rem 10%;    
     gap: 2rem;
     justify-items: center;
-    background: url('../images/bg.jpg'),  rgba(0, 0, 0, 0.404);
+    background: url('images/bg.jpg'),  rgba(0, 0, 0, 0.404);
     background-blend-mode: multiply;
     backdrop-filter: blur(100px);
 }
@@ -239,7 +239,7 @@ body{
 }
 
 .contactSec{
-    background: url('../images/contactBG.jpg'),  rgba(0, 0, 0, 0.404);
+    background: url('images/contactBG.jpg'),  rgba(0, 0, 0, 0.404);
     background-blend-mode: multiply;
     background-size: cover;
     height: 600px;
