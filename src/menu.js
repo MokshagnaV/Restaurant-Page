@@ -27,6 +27,7 @@ function header(){
 function hero_section() {
     const main = create("section");
     classAdd(main, "main-hero");
+    classAdd(main, "menuHero");
 
     const content = create("div"); // main-content consists of heading and tagline
     classAdd(content, "hero-content");
@@ -40,7 +41,7 @@ function hero_section() {
 
     const credits = create("p");
     classAdd(credits, "credits");
-    credits.innerHTML = 'Photo by <a href="https://unsplash.com/@f_abrarrr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fathul Abrar</a> on <a href="https://unsplash.com/images/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
+    credits.innerHTML = 'Photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Hansel</a> on <a href="https://unsplash.com/photos/lXLct9D-ARE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
     
     main.append(header(), content, credits);
     return main;

@@ -27,6 +27,8 @@ function header(){
 function hero_section() {
     const main = create("section");
     classAdd(main, "main-hero");
+    classAdd(main, "contact");
+
 
     const content = create("div"); // main-content consists of heading and tagline
     classAdd(content, "hero-content");
@@ -40,18 +42,34 @@ function hero_section() {
 
     const credits = create("p");
     classAdd(credits, "credits");
-    credits.innerHTML = 'Photo by <a href="https://unsplash.com/@f_abrarrr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fathul Abrar</a> on <a href="https://unsplash.com/images/food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
+    credits.innerHTML = 'Photo by <a href="https://unsplash.com/@kalebtapp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kaleb tapp</a> on <a href="https://unsplash.com/photos/J59wWPn09BE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
     
     main.append(header(), content, credits);
     return main;
 }
 
+function contactSec(){
+    const section = create("section");
+    classAdd(section, "contactSec");
+
+    const conDiv = create("div");
+    classAdd(conDiv, "contact-content");
+
+    const h1 = create("h1");
+    h1.textContent = "Location of Chivesselle";
+    conDiv.append(h1);
+
+    const credits = create("p");
+    classAdd(credits, "credits");
+    credits.innerHTML = 'Photo by <a href="https://unsplash.com/@clemono?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clem Onojeghuo</a> on <a href="https://unsplash.com/photos/zlABb6Gke24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
+    section.append(conDiv, credits);
+
+    return section;
+}
+
 export default function contact(){
     const div = create("div");
-    const thisContent = create("h1");
-    thisContent.textContent = "CONTACT PAGE";
-    div.append(hero_section(), thisContent);
+    div.append(hero_section(), contactSec());
 
     return div
 }
-

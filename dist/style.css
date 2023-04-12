@@ -96,6 +96,15 @@ body{
     padding: 1rem;
     padding-top: 0;
 }
+.main-hero.menuHero{
+    background: url(../images/menu.jpg), rgba(0, 0, 0, 0.404);
+    background-size: cover;
+}
+.main-hero.contact{
+    background: url(../images/contact.jpg), rgba(0, 0, 0, 0.404);
+    background-size: cover;
+    background-position: 90%;
+}
 .hero-content{
     color: rgb(255, 0, 0);
     flex: 1;
@@ -227,4 +236,28 @@ body{
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+.contactSec{
+    background: url('../images/contactBG.jpg'),  rgba(0, 0, 0, 0.404);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.contact-content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-content h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
 }
