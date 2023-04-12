@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "This Project is developed using webpack. To learn the functionalities of webpack and implementing the entire web page using js alone. Alongside adding the CSS using external CSS only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MokshagnaV/Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MokshagnaV/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/MokshagnaV/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
